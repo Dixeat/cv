@@ -28,10 +28,10 @@
   .meta{ margin-top:8px; color:var(--muted); display:flex; gap:12px 18px; flex-wrap:wrap; font-size:13px; }
   .cta a{ display:inline-block; padding:10px 16px; border-radius:12px; background:var(--brand); color:#fff; font-weight:700; box-shadow:var(--shadow); }
   .cta a + a{ margin-left:10px; background:transparent; color:var(--brand); border:1px solid var(--brand); }
-  .quick-link{ display:inline-block; padding:10px 18px; border-radius:12px; background:var(--brand); color:#fff; font-weight:700; box-shadow:var(--shadow); text-decoration:none; transition:transform 0.2s, box-shadow 0.2s; font-size:14px; }
+  .quick-link{ display:inline-block; padding:8px 14px; border-radius:8px; background:var(--brand); color:#fff; font-weight:700; box-shadow:var(--shadow); text-decoration:none; transition:transform 0.2s, box-shadow 0.2s; font-size:12px; width:100%; text-align:center; min-width:200px; }
   .quick-link:hover{ transform:translateY(-2px); box-shadow:0 12px 24px rgba(10,102,194,.25); text-decoration:none; }
   .quick-link:active{ transform:translateY(0); }
-  .quick-link-secondary{ display:inline-block; padding:10px 18px; border-radius:12px; background:transparent; color:var(--brand); border:2px solid var(--brand); font-weight:700; text-decoration:none; transition:transform 0.2s, background 0.2s; font-size:14px; }
+  .quick-link-secondary{ display:inline-block; padding:8px 14px; border-radius:8px; background:transparent; color:var(--brand); border:2px solid var(--brand); font-weight:700; text-decoration:none; transition:transform 0.2s, background 0.2s; font-size:12px; width:100%; text-align:center; min-width:200px; }
   .quick-link-secondary:hover{ transform:translateY(-2px); background:var(--brand); color:#fff; text-decoration:none; }
   .quick-link-secondary:active{ transform:translateY(0); }
   .grid{ display:grid; grid-template-columns: 620px 1fr; gap:22px; margin-top:22px; }
